@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>冷氣計時器</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- HTML -->
+  <div class="wrapper">
+    <div class="title-container">
+      <h2 class="title-name">冷氣計時器</h2>
+    </div>
+    <div class="date-container">
+      <h4 class="date-title">日期：</h4>
+      <input class="start-date" type="date"> ~ <input class="end-date" type="date">
+    </div>
+    <div class="container">
+      <h4 class="hour-title">時數：</h4>
+      <!-- 向上箭頭 -->
+      <div class="chevron chevron-up"></div>
+      <!-- 數字 -->
+      <div class="number">
+        0
+      </div>
+      <!-- 向下箭頭 -->
+      <div class="chevron chevron-down"></div>
+    </div>
+    <div class="submit-container">
+      <button class="submit">送出</button>
+    </div>
+    <div class="result-container">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
